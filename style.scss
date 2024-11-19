@@ -1,0 +1,19 @@
+/*#כל הזכויות שמורות לשירה#*/
+@mixin font($font)
+{
+    font-size: 20px;
+    font-family: $font;
+    color: cadetblue;
+}
+li{
+    a{
+        color: gray;
+        text-decoration: none;
+    }
+    button{
+        border-radius: 5px;
+        &:hover{
+            opacity: 0.7;
+        }
+    }   
+}
