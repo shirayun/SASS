@@ -1,0 +1,6 @@
+@mixin font($font)
+{
+    font-size: 20px;
+    font-family: $font;
+    color: cadetblue;
+}
